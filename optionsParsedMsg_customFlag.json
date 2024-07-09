@@ -1,0 +1,30 @@
+{
+  "id": {
+    "optionsParsed": {}
+  },
+  "optionsParsed": {
+    "startupOptions": [
+      "--max_idle_secs=10800",
+      "--noshutdown_on_low_sys_mem",
+      "--connect_timeout_secs=30",
+      "--output_user_root=/home/alex.torok/.cache/bazel/_bazel_alex.torok",
+      "--output_base=/home/alex.torok/.cache/bazel/_bazel_alex.torok/66a32df71783bd2efd1b3a8e49820a60",
+      "--failure_detail_out=/home/alex.torok/.cache/bazel/_bazel_alex.torok/66a32df71783bd2efd1b3a8e49820a60/failure_detail.rawproto",
+      "--expand_configs_in_place",
+      "--idle_server_tasks",
+      "--write_command_log",
+      "--nowatchfs",
+      "--nofatal_event_bus_exceptions",
+      "--nowindows_enable_symlinks",
+      "--noclient_debug"
+    ],
+    "cmdLine": [
+      "--flag_alias=alias=//:alias_value",
+      "--build_event_json_file=bes.json"
+    ],
+    "explicitCmdLine": [
+      "--build_event_json_file=bes.json"
+    ],
+    "invocationPolicy": {}
+  }
+}
